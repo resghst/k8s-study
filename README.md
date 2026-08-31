@@ -8,6 +8,7 @@ My Kubernetes learning notes, organized by topic.
 - [Core concepts](notes/01-core-concepts.md) — Pod, ReplicaSet, Deployment, Service
 - [kubectl basics](notes/02-kubectl-basics.md) — everyday commands
 - [Troubleshooting](notes/03-troubleshooting.md) — common Pod / Service / node issues
+- [Pods](notes/04-pods.md) — the smallest schedulable unit, and where self-healing stops
 
 ## About
 
