@@ -1,17 +1,19 @@
 # K8S Study Notes
 
-我的 Kubernetes 學習筆記,依主題整理。
+My Kubernetes learning notes, organized by topic.
 
-## 目錄
+## Contents
 
-- [核心概念](notes/01-core-concepts.md) — Pod、ReplicaSet、Deployment、Service
-- [kubectl 常用指令](notes/02-kubectl-basics.md) — 日常操作速查
-- [除錯速查](notes/03-troubleshooting.md) — Pod / Service / 節點常見問題排查
+- [Architecture overview](notes/00-architecture.md) — control plane, nodes, and how a request flows
+- [Core concepts](notes/01-core-concepts.md) — Pod, ReplicaSet, Deployment, Service
+- [kubectl basics](notes/02-kubectl-basics.md) — everyday commands
+- [Troubleshooting](notes/03-troubleshooting.md) — common Pod / Service / node issues
 
-## 用途
+## About
 
-這個 repo 是個人筆記,內容會隨學習進度持續補充。歡迎透過 PR 修正錯字或補充內容。
+Personal notes, updated as I learn. Note content is written in English; fixes and
+additions via PR are welcome.
 
-## 授權
+## License
 
 MIT
