@@ -6,6 +6,7 @@
 
 - [核心概念](notes/01-core-concepts.md) — Pod、ReplicaSet、Deployment、Service
 - [kubectl 常用指令](notes/02-kubectl-basics.md) — 日常操作速查
+- [除錯速查](notes/03-troubleshooting.md) — Pod / Service / 節點常見問題排查
 
 ## 用途
 
