@@ -1,6 +1,6 @@
-# kubectl 常用指令
+# kubectl Basics
 
-## 查詢資源
+## Inspect resources
 
 ```bash
 kubectl get pods
@@ -8,13 +8,13 @@ kubectl get deployments
 kubectl describe pod <pod-name>
 ```
 
-## 套用設定
+## Apply configuration
 
 ```bash
 kubectl apply -f deployment.yaml
 ```
 
-## 除錯
+## Debug
 
 ```bash
 kubectl logs <pod-name>

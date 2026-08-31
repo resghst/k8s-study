@@ -1,35 +1,36 @@
-# 除錯速查
+# Troubleshooting
 
-## Pod 起不來
+## A Pod won't start
 
 ```bash
 kubectl get pods
 kubectl describe pod <pod-name>
 kubectl logs <pod-name>
-kubectl logs <pod-name> --previous   # 看上一個崩潰的 container
+kubectl logs <pod-name> --previous   # logs from the last crashed container
 ```
 
-常見 STATUS 對照:
+Common STATUS values:
 
-| STATUS | 可能原因 |
+| STATUS | Likely cause |
 | --- | --- |
-| `ImagePullBackOff` | image 名稱或 tag 錯、私有 registry 未設 imagePullSecret |
-| `CrashLoopBackOff` | container 啟動後隨即結束,看 `logs --previous` |
-| `Pending` | 資源不足或無符合的節點,看 `describe` 的 Events |
-| `CreateContainerConfigError` | 參照的 ConfigMap / Secret 不存在 |
+| `ImagePullBackOff` | Wrong image name or tag; private registry with no imagePullSecret |
+| `CrashLoopBackOff` | Container exits right after starting — check `logs --previous` |
+| `Pending` | Not enough resources or no matching node — check the Events in `describe` |
+| `CreateContainerConfigError` | A referenced ConfigMap or Secret does not exist |
 
-## Service 連不到
+## A Service is unreachable
 
 ```bash
-kubectl get endpoints <service-name>   # 沒有 endpoint 代表 selector 對不到 Pod
+kubectl get endpoints <service-name>   # no endpoints means the selector matches no Pods
 kubectl get pods --selector=<key>=<value>
 ```
 
-先確認 Service 的 `selector` 與 Pod 的 label 一致,再確認 `targetPort` 對到 container 實際監聽的 port。
+First confirm the Service `selector` matches the Pod labels, then confirm
+`targetPort` matches the port the container actually listens on.
 
-## 節點狀態
+## Node status
 
 ```bash
 kubectl get nodes
-kubectl describe node <node-name>   # 看 Conditions 與 Taints
+kubectl describe node <node-name>   # check Conditions and Taints
 ```
