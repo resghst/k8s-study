@@ -4,7 +4,8 @@ My Kubernetes learning notes, organized by topic.
 
 ## Contents
 
-- [Architecture overview](notes/00-architecture.md) — control plane, nodes, and how a request flows
+- [Environment setup](notes/environment.md) — how the local k3s cluster was built, and why
+- [Architecture overview](notes/00-architecture.md) — the problem Kubernetes solves, control plane, nodes, request flow
 - [Core concepts](notes/01-core-concepts.md) — Pod, ReplicaSet, Deployment, Service
 - [kubectl basics](notes/02-kubectl-basics.md) — everyday commands
 - [Troubleshooting](notes/03-troubleshooting.md) — common Pod / Service / node issues
