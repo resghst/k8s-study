@@ -395,7 +395,7 @@ kubectl explain pod.spec.containers.livenessProbe
 
 ---
 
-**Next:** Deployments — giving your Pods an owner that recreates them.
+**Next:** [Deployments](04-deployments.md) — giving your Pods an owner that recreates them.
 
 [Contents](../README.md) · [Object reference](objects.md) ·
 [Troubleshooting](troubleshooting.md)
