@@ -2,13 +2,29 @@
 
 Kubernetes learning notes, written while working through a local cluster.
 
-Each lesson is structured the same way: **Part 1 walks you through the commands
-with their expected output**, **Part 2 explains how it works**, and **Part 3 is a
-command reference** to come back to.
+## How to use this repo
+
+Two layers, meant to be read together:
+
+- **[`concepts/`](concepts/) — 概念篇(中文,先讀)**: short "grab the idea first" cards,
+  one per lesson, plus two big-picture overviews. Start here to build the mental
+  model before touching commands.
+- **[`notes/`](notes/) — hands-on lessons (English)**: each lesson walks through the
+  commands with real output (Part 1), explains how it works (Part 2), and ends with a
+  command reference (Part 3). (Chinese `.zh.md` versions of each lesson are being added
+  alongside.)
+
+**Recommended path for a beginner:**
+
+> 讀 [`concepts/`](concepts/) 的總覽(10 分鐘)→ 每一課先讀概念卡、再做對應的 `notes/` hands-on。
+
+New here and no cluster yet? Start with
+[Setting Up a Practice Cluster](notes/00-environment.md).
 
 ## Lessons
 
-Read in order.
+Read in order. Each row links the hands-on lesson; the matching Chinese concept card
+is in [`concepts/`](concepts/).
 
 | # | Lesson | What you get out of it |
 | --- | --- | --- |
@@ -34,7 +50,9 @@ Look these up as needed.
 
 ## About
 
-Personal notes, updated as I learn. Note content is written in English.
+Personal notes, updated as I learn. Hands-on lessons in [`notes/`](notes/) are
+written in English (Chinese `.zh.md` versions are being added alongside); the concept
+cards in [`concepts/`](concepts/) are in Chinese.
 
 ## License
 
