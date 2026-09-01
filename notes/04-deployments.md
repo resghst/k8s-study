@@ -432,8 +432,8 @@ kubectl explain deployment.spec.strategy.rollingUpdate
 
 ---
 
-**Next:** Services — a stable address and load balancing in front of a churning
-set of Pods.
+**Next:** [Services](05-services.md) — a stable address and load balancing in
+front of a churning set of Pods.
 
 [Contents](../README.md) · [Object reference](objects.md) ·
 [Troubleshooting](troubleshooting.md)
