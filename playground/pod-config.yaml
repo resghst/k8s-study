@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: consumer
+spec:
+  containers:
+    - name: app
+      image: busybox
+      command: ["sh", "-c", "sleep 3600"]
+      env:
+        # inject one ConfigMap key as an env var
+        - name: APP_COLOR
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: APP_COLOR
+        # inject one Secret key as an env var (decoded automatically)
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: app-secret
+              key: DB_PASSWORD
+      volumeMounts:
+        # mount the whole ConfigMap as files under /etc/config
+        - name: config-vol
+          mountPath: /etc/config
+          readOnly: true
+  volumes:
+    - name: config-vol
+      configMap:
+        name: app-config

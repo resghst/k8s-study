@@ -268,8 +268,8 @@ kubectl explain ingress.spec.tls
 
 ---
 
-**Next:** ConfigMaps & Secrets — feeding configuration and credentials into Pods
-without baking them into the image.
+**Next:** [ConfigMaps & Secrets](07-config.md) — feeding configuration and
+credentials into Pods without baking them into the image.
 
 [Contents](../README.md) · [Object reference](objects.md) ·
 [Troubleshooting](troubleshooting.md)

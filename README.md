@@ -19,6 +19,7 @@ Read in order.
 | 04 | [Deployments](notes/04-deployments.md) | An owner that recreates, scales, and version-updates your Pods |
 | 05 | [Services](notes/05-services.md) | A stable address and load balancing in front of churning Pods |
 | 06 | [Ingress](notes/06-ingress.md) | One entry point routing by host and path to several Services |
+| 07 | [ConfigMaps & Secrets](notes/07-config.md) | Feed configuration and credentials into Pods without rebuilding the image |
 
 ## Reference
 
