@@ -17,6 +17,7 @@ Read in order.
 | 02 | [kubectl](notes/02-kubectl.md) | The command grammar, output formats, and how to answer your own questions |
 | 03 | [Pods](notes/03-pods.md) | The smallest schedulable unit — and where self-healing stops |
 | 04 | [Deployments](notes/04-deployments.md) | An owner that recreates, scales, and version-updates your Pods |
+| 05 | [Services](notes/05-services.md) | A stable address and load balancing in front of churning Pods |
 
 ## Reference
 
