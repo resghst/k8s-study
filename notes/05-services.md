@@ -299,8 +299,8 @@ kubectl explain service.spec.ports
 
 ---
 
-**Next:** Ingress — one external entry point routing by hostname and path to
-several Services.
+**Next:** [Ingress](06-ingress.md) — one external entry point routing by hostname
+and path to several Services.
 
 [Contents](../README.md) · [Object reference](objects.md) ·
 [Troubleshooting](troubleshooting.md)
