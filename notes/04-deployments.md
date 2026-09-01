@@ -1,3 +1,5 @@
+**English** · [中文](04-deployments.zh.md)
+
 # Deployments
 
 > The owner that keeps your Pods alive, lets you scale them, and rolls out new

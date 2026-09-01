@@ -1,3 +1,5 @@
+**English** · [中文](03-pods.zh.md)
+
 # Pods
 
 > The smallest thing Kubernetes schedules, and the unit everything else is built

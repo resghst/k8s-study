@@ -1,3 +1,5 @@
+**English** · [中文](00-environment.zh.md)
+
 # Setting Up a Practice Cluster
 
 > Build a throwaway Kubernetes cluster you can break and rebuild freely:
