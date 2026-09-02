@@ -1,3 +1,5 @@
+**English** · [中文](06-ingress.zh.md)
+
 # Ingress
 
 > One external entry point (ports 80/443) that routes HTTP by hostname and path to

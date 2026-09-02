@@ -1,3 +1,5 @@
+**English** · [中文](07-config.zh.md)
+
 # ConfigMaps & Secrets
 
 > Feed configuration and credentials into Pods at runtime, instead of baking them

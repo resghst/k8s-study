@@ -1,3 +1,5 @@
+**English** · [中文](objects.zh.md)
+
 # Object Reference
 
 > A map of the object types, what each is for, and how they own each other.

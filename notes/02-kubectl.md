@@ -1,3 +1,5 @@
+**English** · [中文](02-kubectl.zh.md)
+
 # kubectl
 
 > The command-line client you will spend most of your time in. Worth learning

@@ -1,3 +1,5 @@
+**English** · [中文](01-architecture.zh.md)
+
 # Architecture Overview
 
 > What problem Kubernetes solves, what a cluster is made of, and what happens
