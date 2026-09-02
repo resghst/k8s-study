@@ -1,3 +1,5 @@
+**English** · [中文](troubleshooting.zh.md)
+
 # Troubleshooting
 
 > A method, then symptom-by-symptom fixes. Reference page — jump to your symptom.
